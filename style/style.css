@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
 }
-/* body{
+body{
     position: relative;
-} */
-
+}
+/* 
 .header{
     height: 100vh;
-}
+} */
 
 .navbar-style{
     /* box-shadow: 0 5px 10px #efefef; */
@@ -25,32 +25,28 @@
 .icon-bar{
     background: black;
 }
-a.btn{
+.btn{
     margin: 15px 10px ;
     width: 150px;
     padding: 10px;
     border-radius: 20px;
-}
-.btn-first{
     background-color: darkorange;
     color: white;
-    
 }
-.btn-second{
-    background-color: transparent;
-    border: 2px solid darkorange;
-    color: black ;
-}
-a.btn:hover{
+.btn:hover{
     background: darkorange;
     border: none;
     color: white;
     box-shadow: 5px 5px 10px #999;
+    outline: none;
+}
+.btn:focus{
+    outline: none;
 }
 
 #section1{
-    margin-top: 50px;
-    padding-top:50px;
+    /* margin-top: 50px; */
+    padding-top:100px;
     height:500px;
 }
 
@@ -76,8 +72,11 @@ a.btn:hover{
 }
 #section4{
     padding-top:50px;
-    height:500px;color: #fff; 
-    background-color: #009688;
+    /* height:500px; */
+    color: black; 
+    /* background-color: #009688; */
+    background-color: white;
+    text-align: center;
 }
 
 .col-lg-6{
@@ -87,4 +86,76 @@ a.btn:hover{
 .col-lg-6 img{
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.box input[type = "text"] , .box input[type = "email"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    /* border: 2px solid #240fdf; */
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s ;    
+}
+
+.box input[type = "text"]:focus , .box input[type = "email"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+
+}
+
+.box input[type = "submit"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 10px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s ;    
+    cursor: pointer;
+    width: 100px;
+}
+
+.box input[type = "submit"]:hover{
+    background: #2ecc71;
+}
+.contact-form input[type = "text"] , .contact-form input[type = "email"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid gray ;
+    padding: 12px 10px;
+    width: 100%;
+    outline: none;
+    color: black;
+}
+.contact-form input[type = "submit"]{
+    margin: 20px auto ;
+    background: #1678e0;
+    padding: 18px 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    color: white;
+}
+.contact-form input[type = "submit"]:hover{
+    background:darkorange;
+    transition: 0.2s;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: #1678e0;
+    color: black;
+    
+    
 }
