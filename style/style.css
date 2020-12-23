@@ -52,7 +52,8 @@ body{
 
 #section21{
     padding-top:50px;
-    height:500px;
+    /* height:500px; */
+    min-height: 600px;
     color: #fff; 
     background-color: #673ab7;
 }
@@ -156,6 +157,27 @@ body{
     width: 100%;
     background-color: #1678e0;
     color: black;
-    
-    
+}
+
+.card{
+    text-align: center;
+    padding: 15px ;
+    margin: auto;
+    max-width: 360px;
+}
+.card-body{
+    border: 1px solid black;
+    border-radius: 12px;
+    background: white;
+    color: black;
+    padding: 15px;
+}
+.card-btn{
+    margin: 15px auto ;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: darkorange;
+    color: white;
+    outline: none;
 }
