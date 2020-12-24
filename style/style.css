@@ -54,8 +54,11 @@ body{
     padding-top:50px;
     /* height:500px; */
     min-height: 600px;
-    color: #fff; 
-    background-color: #673ab7;
+    color: white ;
+    /* background-color: #673ab7; */
+    background-color:#496474;
+
+    
 }
 
 #section22{
@@ -73,7 +76,7 @@ body{
 }
 #section4{
     padding-top:50px;
-    /* height:500px; */
+    /* height:650px; */
     color: black; 
     /* background-color: #009688; */
     background-color: white;
@@ -164,13 +167,17 @@ body{
     padding: 15px ;
     margin: auto;
     max-width: 360px;
+    
 }
 .card-body{
-    border: 1px solid black;
-    border-radius: 12px;
-    background: white;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    /* background: white; */
     color: black;
-    padding: 15px;
+    padding: 30px;
+    background: linear-gradient(145deg, #425a68, #4e6b7c);
+box-shadow:  7px 7px 25px #3a4f5c, 
+             -7px -7px 25px #58798c;
 }
 .card-btn{
     margin: 15px auto ;
@@ -181,3 +188,32 @@ body{
     color: white;
     outline: none;
 }
+.card-img{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+
+.carousel {
+    background-color:#496474;
+
+  }
+  
+  .carousel-cell {
+    width: 66%;
+    height: auto;
+    margin-right: 10px;
+    background: #88cc88;
+    border-radius: 30px;
+    
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
